@@ -1,5 +1,4 @@
 class pokemon:
-  def __init__(self, nomeDoPokemon, VidaPlayer, VidaInimigo):
-    self.nomeDoPokemon = nomeDoPokemon
-    self.VidaPlayer = VidaPlayer
-    self.VidaInimigo = VidaInimigo
+  def __init__(self, nome, Hp):
+    self.nome = nome
+    self.Hp = Hp
